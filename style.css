@@ -1,6 +1,12 @@
 body{
 	font-family: 'Raleway', sans-serif;
 }
+.logo{
+	padding-left: 30%;
+	padding-top: 10%;
+	width: 100%;
+	height: 100%;
+}
 .navbar{
 	font-size: 17px;
 	background-color: #fff;
@@ -11,7 +17,7 @@ body{
 
 }
 .navbar ul li{
-	padding-top: 3%;
+	padding-top: 8%;
 }
 .navbar li a:hover{
 	background-color: #fff;
@@ -207,6 +213,8 @@ body{
 	font-size:15px;
 	text-align: center;
 	color: #fff;
+	
+	font-weight: lighter;
 }
 .content_about3{
 	padding: 60px 0px;
@@ -277,6 +285,8 @@ body{
 	background-color: #f97171;
 	color:#fff; 
 	margin-top: 30%;
+
+
 }
 .service_pencil_con{
 	padding: 20px;
@@ -296,7 +306,8 @@ body{
 }
 .service{
 	background-color: #f7cd68;
-	padding-top: 50px;
+	padding-top: 8%;
+	padding-bottom: 8%;
 }
 .service h3{
 	font-size: 20px;
@@ -315,4 +326,95 @@ body{
 	background-color: #f97171;
 	color:#fff;
 	margin-top: 30%;
+}
+.service_row2{
+	padding-top: 5%;
+}
+.slider_service{
+	background-color: #244b5c;
+	text-align: center;
+}
+.slider_01 h1{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.slider_01 p{
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: lighter;
+}
+.slider_01 h3{
+	padding-bottom: 5%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+.glyphicon{
+	margin-bottom: 5%;
+	color: #fff;
+	border:2px solid #fff;
+	padding: 2px;
+}
+.service_btm img{
+	max-width: 100%;
+	color: black;
+}
+.service_btm img :hover{
+	color: black;
+}
+.blog_01{
+	background-color: #f3f3f3;
+	padding-top: 5%;
+}
+.blog_01 h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+.blog_01 img{
+	max-width: 100%;
+}
+.blog2{
+
+	background-color: #fff;
+	padding: 20px;	
+}
+.blog2 h2{
+	margin-top: 0;
+	color: #414141;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 10px;
+}
+.blog2 p{
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 5px;
+	color: #5d5d5d;
+}
+
+.blog1 h4{
+	font-size: 13px;
+	font-weight: 700;
+	color: #bdbdbd;
+	font-family: 'Open Sans', sans-serif;
+}
+.blog1 a{
+	font-size: 13px;
+	font-weight: 700;
+	color: #bdbdbd;
+	font-family: 'Open Sans', sans-serif;
+}
+.blog2 a{
+	text-decoration: none;
+}
+.blog2 a h2:hover{
+	color: #f7cd68;
+}
+.blog2 h4 a:hover{
+	color:#f7cd68; 
 }
