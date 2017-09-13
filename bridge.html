@@ -15,15 +15,15 @@
 	<title></title>
 </head> 
 <body>
-    <div class="container-fluid">
-         <div class="row">
-             <nav class="navbar navbar-fixed-top">
-         	    <div class="col-sm-4">
+    <div class="container-fluid" id="top">
+         <div class="row" id="home">
+             <nav class="navbar ">
+         	    <div class="col-sm-5">
                     <div class="nav navbar-nav navbar-left">    
-         	 	    <img src="logo.png.png" alt="Bridge logo" class="logo">
+         	 	    <a href="#top"><img src="logo.png.png" alt="Bridge logo" class="logo"></a> 
          	        </div>
                 </div>    
-         	    <div class="col-sm-8">
+         	    <div class="col-sm-7">
          	            <div class="navbar-header navbar-right">
          	               <ul class="nav navbar-nav">
          	                    <li><a href="#home">Home</a></li>
@@ -39,9 +39,9 @@
          </div>
     </div>
     <div class="container-fluid background">
-    	   <div class="row" id="home">
+    	   <div class="row" >
     	        <div class="col-sm-7 float_right">
-    	        <h1>Awesome Theame</h1>
+    	        <h1>Awesome Theme</h1>
     	        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     	        <button class="first_button"><a href="#check"> CHECK IT OUT</a></button>	
     	        </div>
@@ -74,7 +74,8 @@
              </div>
          </div>
     </div>
-    <div class="container-fluid content_about" id="about">
+    <div id="about">
+    <div class="container-fluid content_about" >
         <h1>Some Info About Us</h1>
         <h3>Absolutely suited for all your web-based needs</h3>
             <div class="col-sm-6">
@@ -160,6 +161,7 @@
           <p>Clients</p>
         </div>
         	
+    </div>
     </div>
     <div class="container-fluid Portfolio_topic" id="Portfolio">
              <h1>Our Latest Work</h1>
@@ -297,13 +299,12 @@
               </div>
               
     </div> 
-    <div class="container-fluid blog_01">
+    <div class="container-fluid blog_01" id="blog">
         
              <div class="col-sm-4 blog1" >
                   <img src="blog1.jpg">
                   <div class="blog2">
-                   <a href="#Transistion"> <h2>Transistion In Ux </h2>
-                   <h2>Design</h2></a>
+                  <h2><a href="#Transistion">Transistion In Ux Design</a></h2>
                   <p>The term minimalism is also used to describe a trend in design and architecture where in the subject is reduce...</p>
                   <h4>04 October,2013 . <a href="#comments">2 Comments</a></h4>
                   </div>
@@ -312,8 +313,7 @@
 
                   <img src="blog2.jpg">
                   <div class="blog2">
-                  <a href="Portugal"><h2>Portugal 2013 Road-</h2>
-                  <h2>Trip</h2></a>
+                  <h2><a href="Portugal">Portugal 2013 Road-Trip</a></h2>
                   <p>The term minimalism is also used to describe a trend in design and architecture where in the subject is reduce...</p>
                   <h4>04 October,2013 . <a href="#comments">1 Comment</a></h4>
                   </div>
@@ -321,19 +321,19 @@
              <div class="col-sm-4 blog1">
                   <img src="blog3.jpg">
                   <div class="blog2">
-                  <a href="josh w"><h2>Josh W - Already There</h2></a>
+                  <h2><a href="josh w">Josh W - Already There</a></h2>
                   <p>The term minimalism is also used to describe a trend in design and architecture where in the subject is reduce...</p>
                   <h4>04 October,2013 . <a href="#comments">No Comment</a></h4>
                   </div>
              </div>
         
     </div> 
-    <div class="container-fluid blog_01">
+    <div class="container-fluid blog_01 blog_02">
         
              <div class="col-sm-4 blog1" >
                   <img src="blog4.jpg">
                   <div class="blog2">
-                   <a href="#Iceland"> <h2>Iceland's Timelapse </h2></a>
+                  <h2> <a href="#Iceland"> Iceland's Timelapse </a></h2>
                   <p>The term minimalism is also used to describe a trend in design and architecture where in the subject is reduce...</p>
                   <h4>03 October,2013 . <a href="#comments">No Comment</a></h4>
                   </div>
@@ -342,8 +342,7 @@
 
                   <img src="blog5.jpg">
                   <div class="blog2">
-                  <a href="#Secrets"><h2>Unlocking Hidden</h2>
-                  <h2>Secrets</h2></a>
+                  <h2><a href="#Secrets">Unlocking Hidden Secrets</a></h2>
                   <p>The term minimalism is also used to describe a trend in design and architecture where in the subject is reduce...</p>
                   <h4>04 October,2013 . <a href="#comments">No Comment</a></h4>
                   </div>
@@ -351,12 +350,81 @@
              <div class="col-sm-4 blog1">
                   <img src="blog6.jpg">
                   <div class="blog2">
-                  <a href="josh w"><h2>Inside The Protein Bar</h2></a>
+                  <h2><a href="josh w">Inside The Protein Bar</a></h2>
                   <p>The term minimalism is also used to describe a trend in design and architecture where in the subject is reduce...</p>
                   <h4>04 October,2013 . <a href="#comments">No Comment</a></h4>
                   </div>
              </div>
         
-    </div>     
+    </div>
+  <div class="container-fluid contact" id="contact">
+         <h1>Contact Us</h1>
+    <div class="row">
+         <div class="col-sm-3 col-xs-12 icon">
+               <i class="fa fa-map-marker fa-2x  map_con" ></i>
+               <h3>Adress</h3>
+               <p>198 West 21th Street New York </p>
+               <p>NY 10010</p>
+               
+          
+         </div>
+         <div class="col-sm-3 col-xs-12 icon ">
+             <i class="fa fa-phone fa-2x phone_con"></i>
+             <h3>Phone</h3>
+             <p>+88 (0) 101 0000 000</p>
+          
+         </div>
+         <div class="col-sm-3 col-xs-12 icon">
+          <i class="fa fa-fax fa-2x mail_con" ></i>
+          <h3>Fax</h3>
+          <P>+88 (0) 101 0000 000</P>
+         </div>
+         <div class="col-sm-3 col-xs-12 icon">
+             <i class="fa fa-envelope fa-2x fb_con"></i>
+             <h3>E-Mail</h3>
+             <p>ouremail@yourdomain.com</p>
+
+          
+         </div>
+      
+    </div>
+  </div>
+  <div class="container-fluid contact_btm">
+       <div class="row">
+           <div class="col-sm-6 contact_btm_left">
+               <h1>Say Hello</h1>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
+               <p>erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla.</p>
+             
+           </div>
+           <div class="col-sm-6 contact_btm_right">
+               <input type="text" name="Name" value="Name">
+               <input type="text" name="E-mail" value="E-mail">
+               <input type="text" name="Subject" value="Subject">
+               <textarea rows="10" placeholder="Message"></textarea>
+               <button>SEND</button>
+             
+           </div>
+       </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row text-center map_btm">
+          <button type="button"  data-toggle="collapse" data-target="#map" >Show Map
+          <br><i class="fa fa-angle-down fa-1x"></i></button>
+            <div id="map" class="collapse">
+                <img src="map1.jpg">
+            </div>
+      </div>  
+  </div>
+  <footer>
+      <div class="container-fluid footer">
+            <div class="row ">
+               <div class="col-sm-12 btm_img text-center">
+                   <a href="#top"> <img src="btm.png"></a>
+                   <p>© Copyright Qode Interactive 2014</p>
+               </div>
+           </div>
+      </div>
+  </footer>     
 </body>
 </html>
